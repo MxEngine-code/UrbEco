@@ -204,9 +204,9 @@ Projeto desenvolvido pela equipe **UrbEco — ProjETE 2K26**.
 
 | Integrante           | Atuação                                    |
 | -------------------- | ------------------------------------------ |
-| 👨‍💻 **João Lucas** | Desenvolvimento e aprimoramento do projeto |
+| 👨‍💻 **João Lucas** | Desenvolvimento parcial e documentação do projeto |
 | 👨‍💻 **Pablo**      | Desenvolvimento e aprimoramento do projeto |
-| 👨‍💻 **Guilherme Camacho**      | Sprites e Música |
+| 👨‍💻 **Guilherme Camacho**      | Sprites, música, documentação do projeto |
 | 👨‍💻 **Gustavo Vicente**      | Sprites |
 
 > A equipe atua de forma colaborativa nas etapas de desenvolvimento, testes, correções e evolução do jogo.
