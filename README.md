@@ -84,8 +84,19 @@ O projeto utiliza tecnologias web para desenvolver sua página de apresentação
 | Tecnologia       | Utilização                       |
 | ---------------- | -------------------------------- |
 | 🌐 **HTML5**     | Estrutura das páginas            |
-| 🎨 **CSS3**      | Estilização e identidade visual  |
+| 🎨 **CSS**      | Estilização e identidade visual  |
 | ⚡ **JavaScript** | Interatividade e funcionalidades |
+| ⚡ **Java Nativo** | Interatividade e funcionalidades no app android |
+| ⚡ **Xml** | Interatividade e funcionalidades |
+| ⚡ **Pixilart** | Deing app android |
+| ⚡ **Python** | Parcialmente funcionalidades no app android |
+| ⚡ **Firebase** | Comunicação de dados do site ao urbeco_reports |
+| ⚡ **Vb.net** | Interatividade e funcionalidades no app windows |
+| ⚡ **WindowsForms** | Design e criação das janelas app windows |
+| ⚡ **Sql** | Comunicação ao firebase |
+| ⚡ **Visual studio 2026** | IDE usada para o app windows |
+| ⚡ **Visual studio code** | Editor usado para html, css, js e python |
+| ⚡ **Sketchware** | IDE para o app android (java e xml) |
 | 🎮 **GameMaker** | Desenvolvimento do jogo          |
 
 ---
