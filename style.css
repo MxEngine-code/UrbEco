@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Orbitron';
     background: #0f172a;
     color: #fff;
 }
@@ -13,9 +15,23 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 20px 32%;
     background: #020617;
 }
+header h1 {
+    font-size: 40px;
+    color:#22c55e;
+    letter-spacing: 2px;
+
+}
+header h1 span {
+    color: #38bdf8;
+}
+header h1 span:nth-child(2) {
+    font-weight: bold;
+}
+
 
 nav ul {
     display: flex;
@@ -39,8 +55,8 @@ nav a:hover {
 
 .btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 12px 20px;
+    margin-top: 85px;
+    padding: 13px 15px;
     background: #22c55e;
     color: #000;
     text-decoration: none;
