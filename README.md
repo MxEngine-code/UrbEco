@@ -88,7 +88,7 @@ O projeto utiliza tecnologias web para desenvolver sua página de apresentação
 | ⚡ **JavaScript** | Interatividade e funcionalidades |
 | ⚡ **Java Nativo** | Interatividade e funcionalidades no app android |
 | ⚡ **Xml** | Interatividade e funcionalidades |
-| ⚡ **Pixilart** | Deing app android |
+| ⚡ **Pixilart** | Criação das pixel art |
 | ⚡ **Python** | Parcialmente funcionalidades no app android |
 | ⚡ **Firebase** | Comunicação de dados do site ao urbeco_reports |
 | ⚡ **Vb.net** | Interatividade e funcionalidades no app windows |
@@ -215,9 +215,9 @@ Projeto desenvolvido pela equipe **UrbEco — ProjETE 2K26**.
 
 | Integrante           | Atuação                                    |
 | -------------------- | ------------------------------------------ |
-| 👨‍💻 **João Lucas** | Desenvolvimento parcial e documentação do projeto |
+| 👨‍💻 **João Lucas Fernandes** | Desenvolvimento parcial e documentação do projeto |
 | 👨‍💻 **Pablo**      | Desenvolvimento e aprimoramento do projeto |
-| 👨‍💻 **Guilherme Camacho**      | Sprites, música, documentação do projeto |
+| 👨‍💻 **Guilherme**      | Sprites, música, documentação do projeto |
 | 👨‍💻 **Gustavo Vicente**      | Sprites |
 
 > A equipe atua de forma colaborativa nas etapas de desenvolvimento, testes, correções e evolução do jogo.
