@@ -215,7 +215,7 @@ Projeto desenvolvido pela equipe **UrbEco — ProjETE 2K26**.
 
 | Integrante           | Atuação                                    |
 | -------------------- | ------------------------------------------ |
-| 👨‍💻 **João Lucas Fernandes** | Desenvolvimento parcial e documentação do projeto |
+| 👨‍💻 **João Lucas Fernandes** | Desenvolvimento e documentação parcial do projeto |
 | 👨‍💻 **Pablo**      | Desenvolvimento e aprimoramento do projeto |
 | 👨‍💻 **Guilherme**      | Sprites, música, documentação do projeto |
 | 👨‍💻 **Gustavo Vicente**      | Sprites |
