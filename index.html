@@ -3,35 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UrbEco</title>
+    <meta name="description" content="Urb.Eco: um jogo de simulação e gestão urbana sustentável.">
+    <title>Urb.Eco | Construa o futuro</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="home">
+    <div class="site-shell">
+        <header class="topbar">
+            <a class="brand" href="index.html" aria-label="Página inicial Urb.Eco">
+                <span class="brand-mark">U</span>
+                <span>Urb<span class="accent">.</span>Eco</span>
+            </a>
+            <nav aria-label="Navegação principal">
+                <a data-nav="home" href="index.html">Visão geral</a>
+                <a data-nav="about" href="aboutus.html">Projeto</a>
+                <a class="nav-cta" data-nav="download" href="download.html">Jogar agora <span>↗</span></a>
+            </nav>
+        </header>
 
-<header>
-    <h1><span>Urb</span>Eco<span></h1>
-    <nav>
-        <ul>
-            <li><a href="#home">UrbEco</a></li>
-            <li><a href="aboutus.html">Sobre nós</a></li>
-            <li><a href="download.html">Download</a></li>
-        </ul>
-    </nav>
-</header>
+        <main>
+            <section class="hero section-grid" id="home">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="status-dot"></span> Simulação urbana • acesso antecipado</p>
+                    <h1>Construa.<br><span class="gradient-text">Decida.</span><br>Transforme.</h1>
+                    <p class="hero-text">
+                        No <strong>Urb.Eco</strong>, cada rua conta uma história. Gerencie recursos,
+                        equilibre a economia e crie uma cidade preparada para o futuro.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="download.html">Começar missão <span>▶</span></a>
+                        <a class="button button-ghost" href="#sobre">Conhecer o jogo</a>
+                    </div>
+                    <div class="quick-stats" aria-label="Características do jogo">
+                        <div><strong>2D</strong><span>Pixel art</span></div>
+                        <div><strong>∞</strong><span>Possibilidades</span></div>
+                        <div><strong>100%</strong><span>Estratégia</span></div>
+                    </div>
+                </div>
 
-<section id="home" class="hero">
-    <h2>Bem-vindo ao UrbEco</h2>
-    <p>Construa cidades sustentáveis.</p>
-    <a href="download.html" class="btn">Baixar Agora</a>
-</section>
+                <div class="city-preview" aria-label="Painel de controle da cidade">
+                    <div class="preview-header"><span>PAINEL DA CIDADE</span><span class="live-label">● AO VIVO</span></div>
+                    <div class="pixel-city">
+                        <span class="building building-a"></span><span class="building building-b"></span>
+                        <span class="building building-c"></span><span class="building building-d"></span>
+                        <span class="tree tree-a">♣</span><span class="tree tree-b">♣</span>
+                        <span class="road road-horizontal"></span><span class="road road-vertical"></span>
+                        <span class="car car-a"></span><span class="car car-b"></span>
+                    </div>
+                    <div class="preview-footer">
+                        <span><i class="metric-icon energy">⚡</i> Energia <b>82%</b></span>
+                        <span><i class="metric-icon eco">✦</i> Eco índice <b>94</b></span>
+                        <span><i class="metric-icon people">●</i> População <b>12.4k</b></span>
+                    </div>
+                </div>
+            </section>
 
-<section id="about">
-    <h2>Sobre o Jogo</h2>
-    <p>
-        Projete3410
-    </p>
-</section>
+            <section class="content-section" id="sobre">
+                <div class="section-heading">
+                    <p class="eyebrow">01 / O desafio</p>
+                    <h2>Uma cidade. <span class="accent">Mil escolhas.</span></h2>
+                    <p>Planeje o crescimento sem perder de vista as pessoas e o planeta.</p>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <span class="card-number">01</span><span class="feature-icon">▦</span>
+                        <h3>Planeje o território</h3>
+                        <p>Organize bairros, serviços e mobilidade para uma cidade que funciona de verdade.</p>
+                    </article>
+                    <article class="feature-card featured">
+                        <span class="card-number">02</span><span class="feature-icon">⌁</span>
+                        <h3>Equilibre recursos</h3>
+                        <p>Administre orçamento, energia e satisfação enquanto sua população cresce.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span class="card-number">03</span><span class="feature-icon">✦</span>
+                        <h3>Proteja o futuro</h3>
+                        <p>Escolha soluções sustentáveis e veja o impacto de cada decisão no ecossistema.</p>
+                    </article>
+                </div>
+            </section>
 
-<script src="script.js"></script>
+            <section class="manifesto">
+                <div class="manifesto-line"></div>
+                <p>“O crescimento urbano pode trazer benefícios, mas só o planejamento transforma desenvolvimento em futuro.”</p>
+                <div class="manifesto-line"></div>
+            </section>
+        </main>
+
+        <footer class="footer"><span>URB<span class="accent">.</span>ECO</span><span>ProjETE 2K26 • Construindo ideias para cidades melhores.</span></footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
