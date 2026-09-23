@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Envie seu feedback do Urb.Eco: relate bugs, sugira melhorias ou conte o que gostou.">
+    <title>Feedback | Urb.Eco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-shell">
+        <header class="topbar">
+            <a class="brand" href="index.html" aria-label="Página inicial Urb.Eco">
+                <span class="brand-mark">U</span>
+                <span>Urb<span class="accent">.</span>Eco</span>
+            </a>
+            <nav aria-label="Navegação principal">
+                <a href="index.html">Visão geral</a>
+                <a href="aboutus.html">Projeto</a>
+                <a class="active" href="feedback.html">Feedback</a>
+                <a class="nav-cta" href="download.html">Jogar agora <span>↗</span></a>
+            </nav>
+        </header>
+
+        <main class="feedback-page">
+            <div class="section-heading">
+                <p class="eyebrow"><span class="status-dot"></span> Sua opinião constrói o jogo</p>
+                <h1 class="feedback-title">Fale com a <span class="gradient-text">equipe.</span></h1>
+                <p>Encontrou um bug ou tem uma ideia de melhoria? Manda pra gente — cada feedback nos ajuda a evoluir o Urb.Eco.</p>
+            </div>
+
+            <div class="feedback-layout">
+                <aside class="feedback-tips" aria-label="Como ajudar">
+                    <article class="feedback-tip">
+                        <span>🐛</span>
+                        <h3>Relate um bug</h3>
+                        <p>Conte o que você estava fazendo, o que esperava e o que aconteceu. Quanto mais detalhe, mais rápido resolvemos.</p>
+                    </article>
+                    <article class="feedback-tip">
+                        <span>💡</span>
+                        <h3>Sugira melhorias</h3>
+                        <p>Uma mecânica nova, um ajuste de interface ou uma ideia completamente diferente: estamos ouvindo.</p>
+                    </article>
+                    <article class="feedback-tip">
+                        <span>✨</span>
+                        <h3>Conte o que mais gostou</h3>
+                        <p>Feedbacks positivos também contam — eles nos dizem o que precisa ser preservado na próxima versão.</p>
+                    </article>
+                </aside>
+
+                <form class="feedback-form" id="feedback-form" novalidate>
+                    <div class="field">
+                        <span class="field-label" id="feedback-tipo-label">Tipo de feedback</span>
+                        <div class="feedback-types" role="radiogroup" aria-labelledby="feedback-tipo-label">
+                            <label class="type-chip">
+                                <input type="radio" name="tipo" value="Bug" checked>
+                                <span>🐛 Bug</span>
+                            </label>
+                            <label class="type-chip">
+                                <input type="radio" name="tipo" value="Melhoria">
+                                <span>💡 Melhoria</span>
+                            </label>
+                            <label class="type-chip">
+                                <input type="radio" name="tipo" value="Elogio">
+                                <span>✨ Elogio</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field-row">
+                        <div class="field">
+                            <label class="field-label" for="feedback-nome">Nome <small>(opcional)</small></label>
+                            <input class="field-input" id="feedback-nome" name="nome" type="text" maxlength="60" placeholder="Como podemos te chamar?">
+                        </div>
+                        <div class="field">
+                            <label class="field-label" for="feedback-contato">E-mail <small>(opcional)</small></label>
+                            <input class="field-input" id="feedback-contato" name="contato" type="email" maxlength="120" placeholder="se quiser que retornemos o contato">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="field-label" for="feedback-mensagem">Mensagem <b class="required">*</b></label>
+                        <textarea class="field-input" id="feedback-mensagem" name="mensagem" rows="5" maxlength="800" placeholder="Descreva o problema encontrado ou a melhoria que você imagina..."></textarea>
+                        <div class="field-meta">
+                            <span class="field-error" id="feedback-erro" role="alert"></span>
+                            <span class="char-counter"><b id="feedback-count">0</b>/800</span>
+                        </div>
+                    </div>
+
+                    <div class="feedback-actions">
+                        <button class="button button-primary" type="submit">Enviar feedback <span>▶</span></button>
+                        <p class="feedback-note">Durante a demonstração, os feedbacks ficam salvos apenas neste navegador.</p>
+                    </div>
+
+                    <p class="feedback-success" id="feedback-success" role="status" hidden>
+                        <strong>Recebido!</strong> Obrigado por dedicar um tempo para melhorar o Urb.Eco. Seu feedback foi salvo: <b id="feedback-total">0</b> envio(s) neste dispositivo.
+                    </p>
+                </form>
+            </div>
+        </main>
+
+        <footer class="footer"><span>URB<span class="accent">.</span>ECO</span><span>ProjETE 2K26 • Construindo ideias para cidades melhores.</span></footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
