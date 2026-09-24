@@ -84,8 +84,19 @@ O projeto utiliza tecnologias web para desenvolver sua página de apresentação
 | Tecnologia       | Utilização                       |
 | ---------------- | -------------------------------- |
 | 🌐 **HTML5**     | Estrutura das páginas            |
-| 🎨 **CSS3**      | Estilização e identidade visual  |
+| 🎨 **CSS**      | Estilização e identidade visual  |
 | ⚡ **JavaScript** | Interatividade e funcionalidades |
+| ⚡ **Java Nativo** | Interatividade e funcionalidades no app android |
+| ⚡ **Xml** | Interatividade e funcionalidades |
+| ⚡ **Pixilart** | Criação das pixel art |
+| ⚡ **Python** | Parcialmente funcionalidades no app android |
+| ⚡ **Firebase** | Comunicação de dados do site ao urbeco_reports |
+| ⚡ **Vb.net** | Interatividade e funcionalidades no app windows |
+| ⚡ **WindowsForms** | Design e criação das janelas app windows |
+| ⚡ **Sql** | Comunicação ao firebase |
+| ⚡ **Visual studio 2026** | IDE usada para o app windows |
+| ⚡ **Visual studio code** | Editor usado para html, css, js e python |
+| ⚡ **Sketchware** | IDE para o app android (java e xml) |
 | 🎮 **GameMaker** | Desenvolvimento do jogo          |
 
 ---
@@ -204,9 +215,9 @@ Projeto desenvolvido pela equipe **UrbEco — ProjETE 2K26**.
 
 | Integrante           | Atuação                                    |
 | -------------------- | ------------------------------------------ |
-| 👨‍💻 **João Lucas** | Desenvolvimento e aprimoramento do projeto |
+| 👨‍💻 **João Lucas Fernandes** | Desenvolvimento e documentação parcial do projeto |
 | 👨‍💻 **Pablo**      | Desenvolvimento e aprimoramento do projeto |
-| 👨‍💻 **Guilherme Camacho**      | Sprites e Música |
+| 👨‍💻 **Guilherme**      | Sprites, música, documentação do projeto |
 | 👨‍💻 **Gustavo Vicente**      | Sprites |
 
 > A equipe atua de forma colaborativa nas etapas de desenvolvimento, testes, correções e evolução do jogo.
