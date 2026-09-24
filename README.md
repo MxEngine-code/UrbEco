@@ -179,6 +179,9 @@ O projeto está sendo desenvolvido de forma progressiva. Após a análise da ver
 * [x] 🌐 Criação da página inicial
 * [x] 🎨 Desenvolvimento da identidade visual inicial
 * [x] 📥 Criação da página de download
+* [x] 📥 Criação da página de feedback
+* [x] 📥 Criação da página de inicial do site
+* [x] 📥 Criação da página sobre o projeto
 * [x] 📄 Organização inicial do projeto
 * [ ] 🐛 Correção de problemas identificados
 * [ ] ⚙️ Implementação de melhorias
@@ -215,7 +218,7 @@ Projeto desenvolvido pela equipe **UrbEco — ProjETE 2K26**.
 
 | Integrante           | Atuação                                    |
 | -------------------- | ------------------------------------------ |
-| 👨‍💻 **João Lucas Fernandes** | Desenvolvimento e documentação parcial do projeto |
+| 👨‍💻 **João Lucas Fernandes** | Desenvolvimento e documentação do projeto |
 | 👨‍💻 **Pablo**      | Desenvolvimento e aprimoramento do projeto |
 | 👨‍💻 **Guilherme**      | Sprites, música, documentação do projeto |
 | 👨‍💻 **Gustavo Vicente**      | Sprites |
