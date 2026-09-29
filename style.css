@@ -546,7 +546,8 @@ h2 {
 }
 
 .downloads {
-    grid-template-columns: repeat(2, minmax(260px, 430px));
+    grid-template-columns: minmax(260px, 430px);
+    justify-content: center;
 }
 
 .download-card {
@@ -557,11 +558,11 @@ h2 {
     color: var(--green);
     display: block;
     font-size: 2.5rem;
-    margin: 28px 0 18px;
+    margin: 20px 0 18px;
 }
 
 .download-card h2 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: 10px;
 }
 
@@ -573,8 +574,8 @@ h2 {
 .download-card small {
     color: var(--muted);
     display: block;
-    font-size: .7rem;
-    margin-top: 18px;
+    font-size: .85rem;
+    margin-top: 20px;
     text-align: center;
 }
 
