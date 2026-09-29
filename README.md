@@ -114,7 +114,6 @@ UrbEco/
 ├── 📄 download.html
 │
 ├── 🎨 style.css
-├── 🎨 styled.css
 │
 ├── ⚡ script.js
 │
