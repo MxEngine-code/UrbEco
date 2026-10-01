@@ -111,11 +111,10 @@ UrbEco/
 │
 ├── 📄 index.html
 ├── 📄 aboutus.html
+├── 📄 conhecerjogo.html
 ├── 📄 download.html
 │
 ├── 🎨 style.css
-│
-├── ⚡ script.js
 │
 └── 📘 README.md
 ```
@@ -133,6 +132,10 @@ Página principal do projeto, responsável pela apresentação inicial do UrbEco
 
 Página destinada à apresentação da equipe e informações sobre o projeto.
 
+### `conhecerjogo.html`
+
+Página dedicada a apresentar o jogo: mecânicas, características e como jogar.
+
 ### `download.html`
 
 Página destinada ao acesso/download do jogo.
@@ -144,10 +147,6 @@ Arquivo responsável pela estilização da página principal.
 ### `styled.css`
 
 Folha de estilos complementar utilizada pelo projeto.
-
-### `script.js`
-
-Arquivo responsável pelas funcionalidades e interações implementadas em JavaScript.
 
 ### `files/`
 
