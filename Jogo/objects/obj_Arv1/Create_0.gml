@@ -1,0 +1,11 @@
+tipo = 0;
+tool_aberto = false;
+
+tool_largura = 220;
+tool_altura = 130;
+
+tool_x = 0;
+tool_y = 0;
+
+tempo = 5;
+destruindo = false;
