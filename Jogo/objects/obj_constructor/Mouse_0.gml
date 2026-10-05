@@ -1,1 +1,0 @@
-//if (tipo != 13) arrastando = true;
