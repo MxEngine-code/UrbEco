@@ -53,10 +53,9 @@ Acesse o site oficial e conheça o projeto:
 * [🎮 Experimente](#-experimente-o-urbeco)
 * [🎯 Objetivo](#-objetivo)
 * [⚙️ Tecnologias](#️-tecnologias)
-* [📂 Estrutura](#-estrutura-do-projeto)
+* [📂 Estrutura](#-estrutura-do-site)
 * [👥 Equipe](#-equipe)
 * [🚧 Desenvolvimento](#-status-do-desenvolvimento)
-* [📋 Próximos passos](#-próximos-passos)
 
 ---
 
@@ -96,12 +95,12 @@ O projeto utiliza tecnologias web para desenvolver sua página de apresentação
 | ⚡ **Sql** | Comunicação ao firebase |
 | ⚡ **Visual studio 2026** | IDE usada para o app windows |
 | ⚡ **Visual studio code** | Editor usado para html, css, js e python |
-| ⚡ **Sketchware** | IDE para o app android (java e xml) |
+| ⚡ **Sketchware** | IDE para o app android (usada no desing, e vscode pro java e xml) |
 | 🎮 **GameMaker** | Desenvolvimento do jogo          |
 
 ---
 
-## 📂 Estrutura do projeto
+## 📂 Estrutura do site
 
 ```text
 UrbEco/
@@ -121,41 +120,6 @@ UrbEco/
 
 ---
 
-<details>
-<summary><strong>🔎 Clique para conhecer os arquivos</strong></summary>
-
-### `index.html`
-
-Página principal do projeto, responsável pela apresentação inicial do UrbEco.
-
-### `aboutus.html`
-
-Página destinada à apresentação da equipe e informações sobre o projeto.
-
-### `conhecerjogo.html`
-
-Página dedicada a apresentar o jogo: mecânicas, características e como jogar.
-
-### `download.html`
-
-Página destinada ao acesso/download do jogo.
-
-### `style.css`
-
-Arquivo responsável pela estilização da página principal.
-
-### `styled.css`
-
-Folha de estilos complementar utilizada pelo projeto.
-
-### `files/`
-
-Diretório utilizado para armazenar arquivos relacionados ao projeto.
-
-</details>
-
----
-
 ## 🧩 Como o projeto funciona
 
 ```mermaid
@@ -172,44 +136,15 @@ flowchart LR
 
 O projeto está sendo desenvolvido de forma progressiva. Após a análise da versão atual do jogo, a equipe trabalha na **correção de problemas identificados e na implementação de melhorias**, buscando aprimorar a experiência do usuário e avançar para a conclusão da versão final.
 
-### 🔄 Etapas do desenvolvimento
-
-* [x] 🌐 Criação da página inicial
-* [x] 🎨 Desenvolvimento da identidade visual inicial
-* [x] 📥 Criação da página de download
-* [x] 📥 Criação da página de feedback
-* [x] 📥 Criação da página de inicial do site
-* [x] 📥 Criação da página sobre o projeto
-* [x] 📄 Organização inicial do projeto
-* [ ] 🐛 Correção de problemas identificados
-* [ ] ⚙️ Implementação de melhorias
-* [ ] 🎮 Finalização do jogo
-* [ ] 🧪 Testes finais
-* [ ] 🚀 Versão final
-
 ---
 
 ## 🚧 Status do desenvolvimento
 
 **🟡 Em desenvolvimento**
 
-O UrbEco encontra-se em fase de aprimoramento. A equipe está realizando ajustes e correções com o objetivo de finalizar o jogo e disponibilizar uma versão mais completa do projeto.
+O UrbEco encontra-se em fase de aprimoramento. A equipe está realizando ajustes e correções com o objetivo de finalizar o jogo e disponibilizar uma versão mais completa do projeto, por enquanto existindo uma demo 1.0.
 
 ---
-
-## 📋 Próximos passos
-
-| Etapa          | Objetivo                                   | Status |
-| -------------- | ------------------------------------------ | ------ |
-| 🔍 Análise     | Identificar problemas e pontos de melhoria | ✅      |
-| 🐛 Correções   | Solucionar problemas encontrados           | 🔄     |
-| ⚙️ Melhorias   | Aprimorar funcionalidades e experiência    | 🔄     |
-| 🎮 Finalização | Concluir o desenvolvimento do jogo         | ⏳      |
-| 🧪 Testes      | Verificar funcionamento da versão final    | ⏳      |
-| 🚀 Publicação  | Disponibilizar a versão final              | ⏳      |
-
----
-
 ## 👥 Equipe
 
 Projeto desenvolvido pela equipe **UrbEco — ProjETE 2K26**.
