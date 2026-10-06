@@ -280,11 +280,14 @@ public class MenuActivity extends AppCompatActivity {
 			public void onClick(View _view) {
 				if (checkbox1.isChecked()) {
 					selecionado.put("Finalizado", "true");
+					linear12_cor_detalhea.setBackgroundColor(0xFF8BC34A);
 				}
 				else {
 					selecionado.put("Finalizado", "false");
+					linear12_cor_detalhea.setBackgroundColor(Color.TRANSPARENT);
 				}
-				Mensagens.child(selecionado.get("Id").toString()).updateChildren(map);
+				Mensagens.child(selecionado.get("Id").toString()).updateChildren(selecionado);
+				SketchwareUtil.showMessage(getApplicationContext(), "Status mudado");
 			}
 		});
 		
